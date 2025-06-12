@@ -31,3 +31,7 @@ share/python-wheels/
 .installed.cfg
 *.egg
 MANIFEST
+
+# to prevent uploading of PAROS dataset
+*.xlsx
+*.pdf
