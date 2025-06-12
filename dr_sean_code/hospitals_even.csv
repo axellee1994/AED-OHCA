@@ -1,0 +1,9 @@
+Name,X,Y,Resus_CCA,Low_Acuity_cap,High_acuity_patients,Low_acuity_patients
+sgh,6,6.7,40,40,32,32
+ttsh,12,6.7,30,40,24,32
+cgh,18,6.7,30,30,24,24
+ntfgh,24,6.7,20,30,16,24
+ktph,6,13.4,30,30,24,24
+skh,12,13.4,20,30,16,24
+whc,18,13.4,20,30,16,24
+nuh,24,13.4,30,30,24,24
