@@ -35,3 +35,4 @@ MANIFEST
 # to prevent uploading of PAROS dataset
 *.xlsx
 *.pdf
+*.csv
