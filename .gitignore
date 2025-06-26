@@ -32,6 +32,10 @@ share/python-wheels/
 *.egg
 MANIFEST
 
+# OS specific
+*.DS_Store
+
 # to prevent uploading of PAROS dataset
 *.xlsx
 *.pdf
+*.csv
