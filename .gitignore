@@ -39,3 +39,11 @@ MANIFEST
 *.xlsx
 *.pdf
 *.csv
+
+# shapefile and geojson files
+*.shp
+*.gdb
+*.gfs
+*.gml
+*.kml
+*.geojson

@@ -3,7 +3,6 @@ import numpy as np
 import geopandas as gpd
 import time
 from geopy.geocoders import Nominatim
-import time
 
 filename = "postal_code_part_1.csv"
 
