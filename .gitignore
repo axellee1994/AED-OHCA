@@ -47,3 +47,7 @@ MANIFEST
 *.gml
 *.kml
 *.geojson
+*.geojsonl
+*.gpkg
+*.osm
+*.pbf
