@@ -40,7 +40,7 @@ MANIFEST
 *.pdf
 *.csv
 
-# shapefile and geojson files
+# geospatial files
 *.shp
 *.gdb
 *.gfs
@@ -48,6 +48,14 @@ MANIFEST
 *.kml
 *.geojson
 *.geojsonl
-*.gpkg
+*.gpkg**
 *.osm
 *.pbf
+*.poly
+*.sqlite
+*.shx
+*.shp**
+*.dbf
+*.prj
+*.sbn
+*.sbx
