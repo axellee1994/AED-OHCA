@@ -3,6 +3,7 @@ import os
 import sys
 import re
 
+# set a variable to point at the parent directory
 parent_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), '../..'))
 sys.path.insert(0, parent_dir)
 
@@ -77,6 +78,6 @@ def add_to_postgres(input: str, year: int):
     
     print("Done")
 
-# convert_to_SVY21("singapore_2020_3414.gpkg", "singapore_2020.gpkg", 2020)
+# convert_to_SVY21("singapore_2021_3414.gpkg", "singapore_2021.gpkg", 2021)
 # print(list_layers("singapore_2020_3414.gpkg", 2020))
 # add_to_postgres("singapore_2020_3414.gpkg", 2020)
