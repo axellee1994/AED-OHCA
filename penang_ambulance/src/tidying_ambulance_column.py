@@ -19,6 +19,12 @@ given_ambulance = [call_sign.lower() for call_sign in given_ambulance]
 print(given_ambulance)
 print()
 
+# ambulance_df = pd.read_csv("penang_ambulance/datasets/Processed_EMS_Calls_Penang_2024.csv")
+# given_ambulance = ambulance_df["Ambulance Dispatched (Tier 1)"].to_list()
+# # given_ambulance = [call_sign.lower() for call_sign in given_ambulance]
+# am_am = list(set(given_ambulance))
+# print(am_am)
+# print()
 
 # cleaned = {}
 # for item in distinct_ambulance:
