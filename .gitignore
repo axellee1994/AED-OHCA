@@ -60,3 +60,6 @@ MANIFEST
 *.prj
 *.sbn
 *.sbx
+
+### Whitelisting ###
+!ambulance_locations.xlsx
