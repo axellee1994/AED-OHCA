@@ -68,7 +68,7 @@ def query_distinct_values(column_name: str, table_name: str):
      """
      returns a list of unique values of a column
 
-     Parameters:
+     Parameters
      ------
      column_name: str
           name of column you want to query
@@ -96,7 +96,7 @@ def construct_union_query(table_name: str, output_table_name: str):
      """
      returns query to union layer with the hectare grid table
 
-     Parameters:
+     Parameters
      ------
      table_name : str
           name of the table you want to query
