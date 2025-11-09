@@ -35,6 +35,8 @@ MANIFEST
 
 # OS specific
 *.DS_Store
+**.DS_Store
+**/.DS_Store
 
 # to prevent uploading of PAROS dataset
 *.xlsx
