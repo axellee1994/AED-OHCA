@@ -43,6 +43,7 @@ MANIFEST
 *.xlsx
 *.pdf
 *.csv
+*.json
 
 # geospatial files
 *.shp
