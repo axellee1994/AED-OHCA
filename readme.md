@@ -63,3 +63,7 @@ Contains the interpolation of Singapore's resident numbers, age group numbers an
 
 ### script/logistic_regression_step
 Contains the code for logistic regression model to train and predict OHCA demand in Singapore. 
+
+
+### datasets folder
+Contains the datasets needed for the scripts and notebook to run. For datasets/singapore_data/data_gov/masterplan_2019/masterplan2019_landuse_layer, the file size was too big for me to upload onto this repository. Hence please download it from the website and add it to the folder. 
