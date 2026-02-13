@@ -5,7 +5,7 @@ For .ipynb files, it is best to create a new conda environment:
 ```
 conda create -n geospatial_env
 conda activate geospatial_env
-conda intall pandas geopandas geopy openpyxl msoffcrypto gdal
+conda install pandas geopandas geopy openpyxl msoffcrypto gdal
 ```
 The `gdal` package was used to input/output GeoPackage (.gpkg) files into PostgreSQL database. Functions from this package can be a bit buggy. Running the same function multiple times can result in errors, hence it is best to restart the notebook kernel and rerun the code from the top. 
 
@@ -55,11 +55,16 @@ API_KEY = "Your_google_cloud_API_KEY"
 - visualising_missing_data.ipynb outputs geopackage (.gpkg) files help visualise if the datasets obtained from data.gov is missing any data. The .gpkg files can be dropped into QGIS to be viewed.
 
 ### script/interpolation_step folder
-Contains the interpolation of Singapore's resident numbers, age group numbers and ethnicity numbers.
+Contains the interpolation of Singapore's resident numbers, age group numbers and ethnicity numbers. There was insufficient data to perform interpolation for highest qualification numbers. 
 
 ### geospatial_step_2 folder
 - map_characteristic_to_subzone.ipynb maps geospatial binary encodings to their respective subzone.
-- map_interpolated_data_to_subzone.ipynb maps the interpolated demographic data to subzones. 
+    - outputs 3 CSV files containing geospatial encodings base on the 3 URA masterplans (2008, 2014, 2019).
+- map_interpolated_data_to_subzone.ipynb maps the interpolated demographic data and geospatial encoding to subzones.
+    - The interpolated demographic data were from script/interpolation_step folder
+    - Geospatial encodings from 2014 are mapped to subzones for years 2010 - 2018 
+    - Geospatial encodings from 2019 are mapped to subzones for years 2019 - 2021
+    - outputs 2 CSV files with containing the predictor variables for logistic regression
 
 ### script/logistic_regression_step
 Contains the code for logistic regression model to train and predict OHCA demand in Singapore. 
