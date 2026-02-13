@@ -1,0 +1,250 @@
+datasets
+├── 2postal_to_coordinates_conversion.xlsx
+├── 3_OHCA_with_coords.xlsx
+├── 3_OHCA_with_geometric_pts.csv
+├── 3_OHCA_with_geometric_pts.gpkg
+├── DataExportParos_SG_Apr10-Dec21_with postal codes_27Mar25_encryptedv1.xlsx
+├── PAROS_desensitised.xlsx
+├── geospatial_data
+│   ├── 2014_geospatial
+│   │   ├── combined_roads_polygon_2014.gpkg
+│   │   ├── grid_classification.csv
+│   │   ├── grid_classification.xlsx
+│   │   ├── malaysia-singapore-brunei-140101.osm.pbf
+│   │   └── ohca_by_hectare_2014.csv
+│   ├── 2015_geospatial
+│   │   ├── combined_roads_polygon_2015.gpkg
+│   │   ├── grid_classification.csv
+│   │   ├── grid_classification.xlsx
+│   │   ├── malaysia-singapore-brunei-150101.osm.pbf
+│   │   └── ohca_by_hectare_2015.csv
+│   ├── 2016_geospatial
+│   │   ├── combined_grid_2016.gpkg
+│   │   ├── combined_roads_polygon_2016.gpkg
+│   │   ├── grid_classification.csv
+│   │   ├── grid_classification.xlsx
+│   │   ├── malaysia-singapore-brunei-160101.osm.pbf
+│   │   └── ohca_by_hectare_2016.csv
+│   ├── 2017_geospatial
+│   │   ├── combined_roads_polygon_2017.gpkg
+│   │   ├── grid_classification.csv
+│   │   ├── grid_classification.xlsx
+│   │   ├── malaysia-singapore-brunei-170101.osm.pbf
+│   │   └── ohca_by_hectare_2017.csv
+│   ├── 2018_geospatial
+│   │   ├── combined_grid_2018.gpkg
+│   │   ├── combined_roads_polygon_2018.gpkg
+│   │   ├── grid_classification.csv
+│   │   ├── grid_classification.xlsx
+│   │   ├── malaysia-singapore-brunei-180101.osm.pbf
+│   │   └── ohca_by_hectare_2018.csv
+│   ├── 2019_geospatial
+│   │   ├── combined_grid_2019.gpkg
+│   │   ├── combined_roads_polygon_2019.gpkg
+│   │   ├── grid_classification.csv
+│   │   ├── grid_classification.xlsx
+│   │   ├── malaysia-singapore-brunei-190101.osm.pbf
+│   │   └── ohca_by_hectare_2019.csv
+│   ├── 2020_geospatial
+│   │   ├── combined_grid_2020.gpkg
+│   │   ├── combined_roads_polygon_2020.gpkg
+│   │   ├── grid_classification.csv
+│   │   ├── grid_classification.xlsx
+│   │   ├── malaysia-singapore-brunei-200101.osm.pbf
+│   │   └── ohca_by_hectare_2020.csv
+│   ├── 2021_geospatial
+│   │   ├── 2021_combined_roads_polygon.gpkg
+│   │   ├── commercial_polygons.xlsx
+│   │   ├── hectare_grid.gpkg
+│   │   ├── multipolygons_edited_2021.gpkg
+│   │   ├── result_classification.xlsx
+│   │   ├── singapore_2021.osm.pbf
+│   │   ├── singapore_2021_3414.gpkg
+│   │   ├── singapore_2021_lines.gpkg
+│   │   ├── singapore_2021_multipolygons.gpkg
+│   │   ├── singapore_combined_major_roads_2021.gpkg
+│   │   ├── singapore_major_roads_2021.gpkg
+│   │   ├── testing_result_classification.xlsx
+│   │   └── with_hectare_grid
+│   ├── OHCA_geospatial.qgz
+│   ├── grid_resuilts_backups
+│   │   ├── grid_classification_2014.xlsx
+│   │   ├── grid_classification_2015.xlsx
+│   │   ├── grid_classification_2016.xlsx
+│   │   ├── grid_classification_2017.xlsx
+│   │   ├── grid_classification_2018.xlsx
+│   │   ├── grid_classification_2019.xlsx
+│   │   └── grid_classification_2020.xlsx
+│   ├── hectare_grid.gpkg
+│   ├── singapore.poly
+│   └── singapore.sqlite
+├── ohca_by_hectare.gpkg
+├── postal_code_data
+│   ├── 1known_postal.xlsx
+│   ├── 1unknown_postal.xlsx
+│   ├── 1unknown_postal_modified.xlsx
+│   ├── 2postal_to_coordinates_conversion_final.xlsx
+│   ├── 2unknown_postal_modified_final.xlsx
+│   ├── 2unknown_postal_to_coordinate_results.xlsx
+│   ├── postal_code_part_1.csv
+│   ├── remaining_postalcodes.xlsx
+│   └── translated_remaining_postalcodes.xlsx
+├── singapore_data
+│   ├── cleaned_data
+│   │   ├── 2010_age_group_planning_area_subzone.xlsx
+│   │   ├── 2015_age_group_planning_area_subzone.xlsx
+│   │   ├── 2020_age_group_planning_area_subzone.xlsx
+│   │   ├── combined_demographic_geo_2010_2018.csv
+│   │   ├── combined_demographic_geo_2019_2021.csv
+│   │   ├── education_combined.xlsx
+│   │   ├── ethnic_density_ratios
+│   │   │   ├── ethnic_density_ratio_2010.csv
+│   │   │   ├── ethnicity_density_ratio_2010.csv
+│   │   │   ├── ethnicity_density_ratio_2015.csv
+│   │   │   ├── ethnicity_density_ratio_2020.csv
+│   │   │   ├── ethnicity_interpolation.csv
+│   │   │   ├── ethnicity_master_2010_2021.csv
+│   │   │   └── final_subzone_ethnicity_population.csv
+│   │   ├── ethnicity_combined.xlsx
+│   │   ├── ohca_data
+│   │   │   ├── ohca_2010_2018.csv
+│   │   │   ├── ohca_2019_2021.csv
+│   │   │   ├── ohca_binary_complete.csv
+│   │   │   └── ohca_normalised_complete.csv
+│   │   ├── subzone_combined_characteristics_2010.csv
+│   │   ├── subzone_combined_characteristics_2015.csv
+│   │   ├── subzone_combined_characteristics_2020.csv
+│   │   └── subzone_density_ratios
+│   │       ├── 2021_density_ratio.csv
+│   │       ├── age_group_per_year.csv
+│   │       ├── age_group_per_year_long.csv
+│   │       ├── final_density_ratio_interpolation.csv
+│   │       ├── final_subzone_population_2010_2021.csv
+│   │       ├── granular_temporal_interpolation.csv
+│   │       ├── pop_density_ratio_2010.csv
+│   │       ├── pop_density_ratio_2015.csv
+│   │       ├── pop_density_ratio_2020.csv
+│   │       └── seniors_temporal_interpolation.csv
+│   ├── data_gov
+│   │   ├── 2015PlanningAreaHighestQualificationAttained.csv
+│   │   ├── 2015ResidentPopulationbyAgeGroup.csv
+│   │   ├── 2015ResidentPopulationbyPlanningAreaSubzoneAgeGroup.csv
+│   │   ├── 2015_age_group_subzone_edited.xlsx
+│   │   ├── 2015_ethnicity_subzone_edited.xlsx
+│   │   ├── 2015_planning_area_ethnicity_sex.csv
+│   │   ├── HDBPropertyInformation.csv
+│   │   ├── ResidentLabourForceAged15YearsAndOverByHighestQualificationAnnual.csv
+│   │   ├── ResidentsByAgeGroupEthnicGroupAndSexAnnual.csv
+│   │   ├── highest_qualification_2020.csv
+│   │   ├── masterplan_2008
+│   │   │   ├── MasterPlan2008PlanningAreaBoundaryNoSeaSHP.zip
+│   │   │   ├── MasterPlan2008SubzoneBoundaryNoSea
+│   │   │   │   ├── Master Plan 2008 Subzone Boundary (No Sea) (KML).kml
+│   │   │   │   ├── Master Plan 2008 Subzone Boundary (No Sea) (SHP)
+│   │   │   │   │   ├── MP08_SUBZONE_NO_SEA_PL.dbf
+│   │   │   │   │   ├── MP08_SUBZONE_NO_SEA_PL.prj
+│   │   │   │   │   ├── MP08_SUBZONE_NO_SEA_PL.sbn
+│   │   │   │   │   ├── MP08_SUBZONE_NO_SEA_PL.sbx
+│   │   │   │   │   ├── MP08_SUBZONE_NO_SEA_PL.shp
+│   │   │   │   │   ├── MP08_SUBZONE_NO_SEA_PL.shp.xml
+│   │   │   │   │   └── MP08_SUBZONE_NO_SEA_PL.shx
+│   │   │   │   └── Master Plan 2008 Subzone Boundary (No Sea) (SHP).zip
+│   │   │   ├── MasterPlan2008SubzoneBoundaryNoSea.zip
+│   │   │   ├── pop_density_2010.csv
+│   │   │   ├── pop_density_2010.numbers
+│   │   │   ├── pop_density_ratio_2010.csv
+│   │   │   └── subzone_boundary_2008.gpkg
+│   │   ├── masterplan_2014
+│   │   │   ├── Master Plan 2014 Land Use (SHP)
+│   │   │   │   ├── G_MP14_LAND_USE_PL.dbf
+│   │   │   │   ├── G_MP14_LAND_USE_PL.prj
+│   │   │   │   ├── G_MP14_LAND_USE_PL.sbn
+│   │   │   │   ├── G_MP14_LAND_USE_PL.sbx
+│   │   │   │   ├── G_MP14_LAND_USE_PL.shp
+│   │   │   │   ├── G_MP14_LAND_USE_PL.shp.xml
+│   │   │   │   └── G_MP14_LAND_USE_PL.shx
+│   │   │   ├── MasterPlan2014SubzoneBoundaryNoSea
+│   │   │   │   ├── Master Plan 2014 Subzone Boundary (No Sea) (KML).kml
+│   │   │   │   ├── Master Plan 2014 Subzone Boundary (No Sea) (SHP)
+│   │   │   │   │   ├── MP14_SUBZONE_NO_SEA_PL.dbf
+│   │   │   │   │   ├── MP14_SUBZONE_NO_SEA_PL.prj
+│   │   │   │   │   ├── MP14_SUBZONE_NO_SEA_PL.sbn
+│   │   │   │   │   ├── MP14_SUBZONE_NO_SEA_PL.sbx
+│   │   │   │   │   ├── MP14_SUBZONE_NO_SEA_PL.shp
+│   │   │   │   │   ├── MP14_SUBZONE_NO_SEA_PL.shp.xml
+│   │   │   │   │   └── MP14_SUBZONE_NO_SEA_PL.shx
+│   │   │   │   └── Master Plan 2014 Subzone Boundary (No Sea) (SHP).zip
+│   │   │   ├── MasterPlan2014SubzoneBoundaryNoSea.zip
+│   │   │   ├── subzone_boundary_2014.gpkg
+│   │   │   └── subzone_classifications_2014.csv
+│   │   └── masterplan_2019
+│   │       ├── MasterPlan2019SubzoneBoundary.gpkg
+│   │       ├── MasterPlan2019SubzoneBoundaryNoSeaGEOJSON.geojson
+│   │       ├── masterplan2019_landuse_layer.txt
+│   │       ├── subzone_boundary_2019.gpkg
+│   │       ├── subzone_boundary_2019_3414.gpkg
+│   │       └── subzone_classifications_2019.csv
+│   ├── onemap_data
+│   │   ├── planning_area.txt
+│   │   ├── planning_areas_2008.gpkg
+│   │   ├── planning_areas_2014.gpkg
+│   │   ├── planning_areas_2019.gpkg
+│   │   ├── population_age_group.json
+│   │   ├── population_education_attending.json
+│   │   ├── raw_datas
+│   │   │   ├── MasterPlan2008RegionBoundaryNoSeaSHP
+│   │   │   │   ├── MP08_REGION_NO_SEA_PL.dbf
+│   │   │   │   ├── MP08_REGION_NO_SEA_PL.prj
+│   │   │   │   ├── MP08_REGION_NO_SEA_PL.sbn
+│   │   │   │   ├── MP08_REGION_NO_SEA_PL.sbx
+│   │   │   │   ├── MP08_REGION_NO_SEA_PL.shp
+│   │   │   │   ├── MP08_REGION_NO_SEA_PL.shp.xml
+│   │   │   │   └── MP08_REGION_NO_SEA_PL.shx
+│   │   │   ├── MasterPlan2014RegionBoundaryNoSeaSHP
+│   │   │   │   ├── MP14_REGION_NO_SEA_PL.dbf
+│   │   │   │   ├── MP14_REGION_NO_SEA_PL.prj
+│   │   │   │   ├── MP14_REGION_NO_SEA_PL.sbn
+│   │   │   │   ├── MP14_REGION_NO_SEA_PL.sbx
+│   │   │   │   ├── MP14_REGION_NO_SEA_PL.shp
+│   │   │   │   ├── MP14_REGION_NO_SEA_PL.shp.xml
+│   │   │   │   └── MP14_REGION_NO_SEA_PL.shx
+│   │   │   └── MasterPlan2019RegionBoundaryNoSeaGEOJSON.geojson
+│   │   ├── region_boundary_2008.gpkg
+│   │   ├── region_boundary_2014.gpkg
+│   │   └── region_boundary_2019.gpkg
+│   ├── singstat
+│   │   ├── 2010_age_group_and_ethnicity_by_subzone.xls
+│   │   ├── 2010_age_group_subzone_shorten.xlsx
+│   │   ├── 2010_ethnicity_subzone_edited.xlsx
+│   │   ├── 2010_highest_education.xlsx
+│   │   ├── 2010_highest_education_by_planning_area.xls
+│   │   ├── 2020_EthnicGroup_Sex_by_subzone.csv
+│   │   ├── 2020_age_group_by_subzone.xlsx
+│   │   ├── 2020_age_group_subzone_shorten.xlsx
+│   │   ├── 2020_ethnicity_subzone_edited.xlsx
+│   │   ├── 2020_highest_education.xlsx
+│   │   ├── 2020_highest_education_by_planning_area.xlsx
+│   │   ├── 2020_workplace_by_location_by_agegroup.xlsx
+│   │   ├── age_group_per_year.csv
+│   │   ├── residents_by_region_age_group.csv
+│   │   └── workplace_population_2020_shorten.xlsx
+│   └── visualisation_data
+│       ├── missing_subzones.csv
+│       ├── pln_area_with_education_2010.gpkg
+│       ├── pln_area_with_education_2015.gpkg
+│       ├── pln_area_with_education_2020.gpkg
+│       ├── pln_area_with_ethnicity_2010.gpkg
+│       ├── pln_area_with_ethnicity_2015.gpkg
+│       ├── pln_area_with_ethnicity_2020.gpkg
+│       ├── pln_area_with_population_data_2010.gpkg
+│       ├── pln_area_with_population_data_2015.gpkg
+│       ├── pln_area_with_population_data_2020.gpkg
+│       ├── subzone_with_ethnicity_data_2010.gpkg
+│       ├── subzone_with_ethnicity_data_2015.gpkg
+│       ├── subzone_with_ethnicity_data_2020.gpkg
+│       ├── subzone_with_population_data_2010.gpkg
+│       ├── subzone_with_population_data_2015.gpkg
+│       └── subzone_with_population_data_2020.gpkg
+└── ~$DataExportParos_SG_Apr10-Dec21_with postal codes_27Mar25_encryptedv1.xlsx
+
+33 directories, 215 files
