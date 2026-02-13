@@ -69,6 +69,7 @@ MANIFEST
 *.prj
 *.sbn
 *.sbx
+*.qgz
 
 # ignore the datasets folder so sensitive data is not uploaded to the repo
 /datasets/

@@ -117,6 +117,7 @@ Contains the interpolation of Singapore's resident numbers, age group numbers an
     - The interpolated demographic data were from script/interpolation_step folder
     - Geospatial encodings from 2014 are mapped to subzones for years 2010 - 2018 
     - Geospatial encodings from 2019 are mapped to subzones for years 2019 - 2021
+    - adds the 'is_resident' column to the table, where is_resident = 1 if the subzone's primary land use classification is residential
     - outputs 2 CSV files with containing the predictor variables for logistic regression
 
 ### describing_datasets_part2
