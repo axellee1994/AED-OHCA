@@ -1,0 +1,93 @@
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+*.ini
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# OS specific
+*.DS_Store
+**.DS_Store
+**/.DS_Store
+
+# pictures
+*.png
+*.jpg
+*.jpeg
+
+# to prevent uploading of PAROS dataset
+*.xls
+*.xlsx
+*.pdf
+*.csv
+*.json
+
+# geospatial files
+*.shp
+*.gdb
+*.gfs
+*.gml
+*.kml
+*.geojson
+*.geojsonl
+*.gpkg**
+*.osm
+*.pbf
+*.poly
+*.sqlite
+*.shx
+*.shp**
+*.dbf
+*.prj
+*.sbn
+*.sbx
+*.qgz
+
+# ignore the datasets folder so sensitive data is not uploaded to the repo
+/datasets/
+
+### Whitelisting ###
+# !ambulance_locations.xlsx
+# !**/singstat
+# # whitelist all excel files inside singstat folders
+# !**/singstat/*.xlsx
+# !**/singstat/*.xls
+# !**/singstat/*.csv
+# # whitelist all files in data_gov folder
+# !**/data_gov
+# !**/data_gov/**
+
+# !**/cleaned_data
+# !**/cleaned_data/2010_age_group_planning_area_subzone.xlsx
+# !**/cleaned_data/2015_age_group_planning_area_subzone.xlsx
+# !**/cleaned_data/2020_age_group_planning_area_subzone.xlsx
+# !**/cleaned_data/education_combined.xlsx
+# !**/cleaned_data/ethnicity.xlsx
