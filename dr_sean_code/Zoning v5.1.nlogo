@@ -165,12 +165,14 @@ to import-hospitals
 end
 
 to setup-patch-likelihood
-  let filename ""
+  ;;let filename ""
 
-  (ifelse
-    Distribution-of-cases = "Even"   [set filename "age65_longformat_even.csv"]
-    Distribution-of-cases = "Uneven" [set filename "age65_longformat_uneven.csv"]
-  )
+  ;;(ifelse
+    ;;Distribution-of-cases = "Even"   [set filename "age65_longformat_even.csv"]
+    ;;Distribution-of-cases = "Uneven" [set filename "age65_longformat_uneven.csv"]
+  ;;)
+
+  let filename "/Users/axlee/Desktop/Singhealth/AED-OHCA/datasets/singapore_data/cleaned_data/ohca_data/grid_2019_2021_avg_counts_for_netlogo.csv"
 
   let data csv:from-file filename
 
