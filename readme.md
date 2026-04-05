@@ -1,52 +1,88 @@
-## Directory Structure for src code
-```
-src
-├── archive_codes
-│   ├── helper_functions
-│   │   ├── __pycache__
-│   │   │   ├── delimiters.cpython-39.pyc
-│   │   │   ├── querying_functions.cpython-39.pyc
-│   │   │   └── sql_connect_functions.cpython-39.pyc
-│   │   ├── delimiters.py
-│   │   ├── querying_functions.py
-│   │   └── sql_connect_functions.py
-│   ├── map_demographic_to_subzone.ipynb
-│   ├── mapping_ohca_to_hectares.ipynb
-│   └── using_openstreetmaps.ipynb
-├── describing_datasets
-│   ├── describing_paros.ipynb
-│   └── plotting_OHCA_cases.ipynb
-├── describing_datasets_part2
-│   ├── describe_collated_geographic_data.ipynb
-│   └── describe_interpolated_demographic_data.ipynb
-├── geospatial_step_1
-│   ├── postal_to_coordinates.py
-│   └── remove_incorrect_geocode.py
-├── geospatial_step_2
-│   ├── map_characteristic_to_subzone.ipynb
-│   └── map_interpolated_data_to_subzone.ipynb
-└── scripts
-    ├── __pycache__
-    │   └── bash_commands.cpython-39.pyc
-    ├── database.ini
-    ├── interpolation_step
-    │   ├── describing_demographic_data.ipynb
-    │   ├── interpolation_education_numbers.ipynb
-    │   ├── interpolation_ethnicity_numbers.ipynb
-    │   ├── interpolation_resident_numbers.ipynb
-    │   ├── planning_area_plots
-    │   ├── population_area_changes
-    │   └── sanity_check
-    ├── logistic_regression_step
-    │   ├── logistic_regression.ipynb
-    │   └── map_ohca_counts_to_subzone.ipynb
-    └── onemap_singstat_data
-        ├── changes_in_education_lvl.ipynb
-        ├── changes_in_ethnicity.ipynb
-        ├── changes_in_population.ipynb
-        ├── data_gov_description.ipynb
-        ├── extracting_landuse_type.ipynb
-        └── visualising_missing_data.ipynb
+## Directory Structure
+```text
+.
+├── dataset_txt_directory.txt
+├── dr_sean_code
+│   ├── 4. IncidenceToGrid2019_to_2021.ipynb
+│   ├── 4. IncidenceToGrid.ipynb
+│   ├── 5. Netlogo_Experiments_AL.ipynb
+│   ├── 6. Incidence_Drift_Analysis.ipynb
+│   └── Zoning v5.1.nlogo
+├── penang_ambulance
+│   └── src
+│       ├── add_csv_to_postgres.py
+│       ├── ambulance_calls_description.ipynb
+│       ├── eda.ipynb
+│       ├── ems_data_wrangling.ipynb
+│       ├── ems_voronoi_steps.ipynb
+│       ├── helper_functions
+│       │   ├── helper_methods.py
+│       │   ├── querying_postgresql.py
+│       │   └── sql_connection_functions.py
+│       └── tidying_ambulance_column.py
+├── readme.md
+├── requirements.txt
+└── src
+    ├── Archive_codes
+    │   ├── helper_functions
+    │   │   ├── delimiters.py
+    │   │   ├── querying_functions.py
+    │   │   └── sql_connect_functions.py
+    │   ├── map_demographic_to_subzone.ipynb
+    │   ├── mapping_ohca_to_hectares.ipynb
+    │   ├── Survival_Curve
+    │   │   ├── Update_Survival_Curve_Adam.ipynb
+    │   │   ├── Update_Survival_Curve.ipynb
+    │   │   └── Update_Survival_Curve_Logistic Regression.ipynb
+    │   └── using_openstreetmaps.ipynb
+    ├── Cleaning PAROS dataset
+    │   └── PAROS_Datset_Cleaning.ipynb
+    ├── describing_datasets
+    │   ├── describing_paros.ipynb
+    │   └── plotting_OHCA_cases.ipynb
+    ├── describing_datasets_part2
+    │   ├── describe_collated_geographic_data.ipynb
+    │   └── describe_interpolated_demographic_data.ipynb
+    ├── geospatial_step_1
+    │   ├── postal_to_coordinates.py
+    │   └── remove_incorrect_geocode.py
+    ├── geospatial_step_2
+    │   ├── map_characteristic_to_subzone.ipynb
+    │   ├── map_interpolated_data_to_subzone.ipynb
+    │   └── map_interpolated_data_to_subzone_SL.ipynb
+    ├── scripts
+    │   ├── interpolation_step
+    │   │   ├── describing_demographic_data.ipynb
+    │   │   ├── interpolation_education_numbers.ipynb
+    │   │   ├── interpolation_ethnicity_numbers.ipynb
+    │   │   └── interpolation_resident_numbers.ipynb
+    │   ├── logistic_regression_step
+    │   │   ├── logistic_regression.ipynb
+    │   │   ├── map_ohca_counts_to_subzone.ipynb
+    │   │   ├── map_ohca_counts_to_subzone_SL.ipynb
+    │   │   └── poisson_regression.ipynb
+    │   └── onemap_singstat_data
+    │       ├── changes_in_education_lvl.ipynb
+    │       ├── changes_in_ethnicity.ipynb
+    │       ├── changes_in_population.ipynb
+    │       ├── data_gov_description.ipynb
+    │       ├── extracting_landuse_type.ipynb
+    │       └── visualising_missing_data.ipynb
+    └── Survival_Curve_Analysis
+        ├── Piecewise_LR_CI_Plot.ipynb
+        ├── Research_Question_1
+        │   ├── v1_lr_baseline.ipynb
+        │   ├── v2_lr_interaction.ipynb
+        │   ├── v3_piecewise_lr.ipynb
+        │   └── v4_multivariable adjusted_piecewise_lr.ipynb
+        ├── Research_Question_2
+        │   └── rq2.ipynb
+        ├── results
+        │   ├── figures
+        │   └── tables
+        ├── Table_1.ipynb
+        ├── Three_Way_Baseline_Update.ipynb
+        └── Update_Survival_Curve_ESR_and_Exponential_Fit.ipynb
 ```
 
 ### Setting up environments for the codes to run
@@ -61,6 +97,21 @@ conda activate geospatial_env
 conda install pandas geopandas geopy openpyxl msoffcrypto gdal
 ```
 The `gdal` package was used to input/output GeoPackage (.gpkg) files into PostgreSQL database. Functions from this package can be a bit buggy. Running the same function multiple times can result in errors, **hence it is best to restart the notebook kernel and rerun the whole notebook.** 
+
+#### Firth Logistic Regression Environment (Piecewise Survival Models)
+The advanced piecewise survival models (used to evaluate the 4-minute continuous physiological threshold and address complete separation in sparse bystander AED data) require Firth’s Penalized Likelihood. Because the firthlogist library has strict dependency requirements, you must use this separate environment to run those specific analyses:
+
+```bash
+# Create a Python 3.10 environment
+conda create -n firth_env python=3.10 -y
+conda activate firth_env
+
+# Install pinned dependencies to avoid internal library crashes
+# - numpy < 2.0: Avoids breaking older scipy/statsmodels C-code
+# - scikit-learn < 1.6: Restores the '_validate_data' function monkey patch
+pip install "numpy<2.0" "scikit-learn<1.6" pandas statsmodels firthlogist notebook matplotlib
+```
+
 
 #### PostgreSQL
 Postgres was used to manipulate geospatial data.
