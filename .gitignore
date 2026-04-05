@@ -92,3 +92,5 @@ MANIFEST
 # !**/cleaned_data/education_combined.xlsx
 # !**/cleaned_data/ethnicity.xlsx
 Miniconda3-latest-Linux-x86_64.sh
+*.zip
+*.zip
